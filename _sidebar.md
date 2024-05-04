@@ -1,5 +1,36 @@
-<!-- docs/_summary.md -->
-
-* [首页](/)
-* [test](test/README)
-* [验证](验证/README "真的很赞！")
+* AI
+  * [01](ai/01.md)
+  * [02](ai/01.md)
+* CICD
+  * [01](cicd/01.md)
+  * [02](cicd/02.md)
+* macOS
+  * [01](macos/01.md)
+  * [02](macos/02.md)
+* 建站
+  * blog
+    * [01](jianzhan/blog/01.md)
+    * [02](jianzhan/blog/02.md)
+  * [01](jianzhan/01.md)
+  * [02](jianzhan/02.md)
+* Linux
+  * [01](linux/01.md)
+  * [02](linux/02.md)
+* GitOps
+  * [01](gitops/01.md)
+  * [02](gitops/02.md)
+* 监控
+  * [01](jiankong/01.md)
+  * [02](jiankong/02.md)
+* 日志
+  * [01](rizhi/01.md)
+  * [02](rizhi/02.md)
+* Kuberntes
+  * [01](kubernetes/01.md)
+  * [02](kubernetes/02.md)
+* 技术随笔
+  * [01](jishusuibi/01.md)
+  * [02](jishusuibi/02.md)
+* 个人生活
+  * [01](gerenshenghuo/01.md)
+  * [02](gerenshenghuo/02.md)
