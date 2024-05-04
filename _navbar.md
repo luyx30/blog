@@ -10,7 +10,6 @@
   - [日志](README?id=日志) 
   - [Kuberntes](README?id=Kuberntes) 
   - [技术随笔](README?id=技术随笔) 
-- [<span class="iconfont icon-lianjie"></span> 友链](about/Friends.md)  
 - [<span class="iconfont icon-wodeguanzhu"></span> 关于本站](about/)
 - <span class="iconfont icon-xiangkan"></span> 常用工具
   - [JSON在线解析](https://luyx30.github.io/json/)
