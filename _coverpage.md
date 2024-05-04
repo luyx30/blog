@@ -8,7 +8,7 @@
 
 - AI  & Kubernetes & CICD & Linux等
 - 个人生活
-- 随笔速记
+- 技术随笔
 
 [GitHub](https://github.com/luyx30/blog)
 [进入本站](#README.md)
