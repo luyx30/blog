@@ -1,18 +1,17 @@
 * AI
-  * [01](/ai/01.md)
-  * [02](/ai/01.md)
+  * [01](ai/01.md)
+  * [02](ai/01.md)
 * CICD
-  * [01](/cicd/01.md)
-  * [02](/cicd/02.md)
+  * DroneCI
+    * [01](cicd/droneci/01.md)
+    * [02](cicd/droneci/02.md)
+  * ArgoCD
+  * Jenkins
 * macOS
   * [01](macos/01.md)
   * [02](macos/02.md)
 * 建站
-  * [01](建站/01.md)
-  * [02](建站/02.md)
-  * blog
-    * [01](建站/blog/01.md)
-    * [02](建站/blog/02.md)
+  * blog(建站/blog/)
 * Linux
   * [01](linux/01.md)
   * [02](linux/02.md)
@@ -27,7 +26,6 @@
   * [02](kubernetes/02.md)
 * 技术随笔
   * [github.com使用相关问题解决办法参考](技术随笔/github.com使用相关问题解决办法参考.md)
-  * [02](技术随笔/02.md)
 * 个人生活
   * [01](个人生活/01.md)
   * [02](个人生活/02.md)
