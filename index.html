@@ -117,11 +117,14 @@
     });
   </script>
 
-<!-- 实现离线化 -->
-<script>
-  if (typeof navigator.serviceWorker !== 'undefined') {
-      navigator.serviceWorker.register('static/pwa.js')
-  }
-</script>
+  <!-- 实现离线化 -->
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+        navigator.serviceWorker.register('static/pwa.js')
+    }
+  </script>
+
+  <!-- 添加页脚 -->
+  <script src="static/docsify-footer-enh.min.js"></script>
 </body>
 </html>
