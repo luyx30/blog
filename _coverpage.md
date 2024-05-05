@@ -11,4 +11,4 @@
 - 技术随笔
 
 [GitHub](https://github.com/luyx30/blog)
-[进入本站](#/README.md)
+[进入本站](/README.md)
