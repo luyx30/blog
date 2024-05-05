@@ -17,7 +17,7 @@
   <!--
   <meta name="baidu-site-verification" content="SZyWUIzWiU" />
   -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="static/vue.css">
 </head>
 <body>
   <div id="app"></div>
@@ -32,9 +32,20 @@
     // 加载导航栏
     loadNavbar: true,
     // 开启封面
-    coverpage: true
+    coverpage: true,
+    //自动显示标题
+    autoHeader: true,
+    //自动跳转到页面顶部
+    auto2top: true,
+    //小屏设备下合并导航栏到侧边栏
+    mergeNavbar: true,
+    //搜索插件
+    search: {
+      placeholder: '搜索试试',
+      noData: '没有结果！',
+    },
   }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="static/docsify.min.js"></script>
 </body>
 </html>
