@@ -12,24 +12,20 @@
 
 ## 🐼 Me
 
-2009年本科毕业于某大学信管专业，在福建出没。
+2009年本科毕业于某大学信管专业，在福建出没，长期从事运维工作。
 
 本人涉及的技术栈：
 
 - [X] CICD
 - [X] DevOps
-- [X] ......
-- [X] ......
-
-接触过的编程语言：
-
-- [X] ......
+- [X] Linux
+- [X] 国产化
 - [X] ......
 
 ## 💌 联系
 
 - **GitHub：** [https://github.com/luyx30](https://github.com/luyx30)
-- **微信公众号：**  XXXX（扫码关注我呀）
+- **微信公众号：**  卢影随行（扫码关注我呀）
 
  <div ><img src="static/erweima.jpg" width="200" height="200" /></div> 
 
