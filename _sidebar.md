@@ -1,15 +1,15 @@
 * AI
-  * [01](ai/01.md)
-  * [02](ai/01.md)
+  * [01](AI/01.md)
+  * [02](AI/01.md)
 * CICD
   * DroneCI
-    * [01](cicd/droneci/01.md)
-    * [02](cicd/droneci/02.md)
+    * [01](CICD/DroneCI/01.md)
+    * [02](CICD/DroneCI/02.md)
   * ArgoCD
   * Jenkins
 * macOS
-  * [01](macos/01.md)
-  * [02](macos/02.md)
+  * [01](macOS/01.md)
+  * [02](macOS/02.md)
 * 建站
   * blog
     * [0、建站路线随笔](建站/blog/0、建站路线随笔.md)
@@ -22,8 +22,8 @@
     * [7、利用Docsify制作个人博客部署到腾讯云COS](建站/blog/7、利用Docsify制作个人博客部署到腾讯云COS.md)
     * [8、利用Docsify制作个人博客-设计](建站/blog/8、利用Docsify制作个人博客-设计.md)
 * Linux
-  * [01](linux/01.md)
-  * [02](linux/02.md)
+  * [01](Linux/01.md)
+  * [02](Linux/02.md)
 * 监控
   * [01](监控/01.md)
   * [02](监控/02.md)
@@ -31,8 +31,8 @@
   * [01](日志/01.md)
   * [02](日志/02.md)
 * Kuberntes
-  * [01](kubernetes/01.md)
-  * [02](kubernetes/02.md)
+  * [01](Kubernetes/01.md)
+  * [02](Kubernetes/02.md)
 * [技术随笔](技术随笔/)
   * [github.com使用相关问题解决办法参考](技术随笔/github.com使用相关问题解决办法参考.md)
 * 个人生活
