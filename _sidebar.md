@@ -8,11 +8,11 @@
   * [01](macos/01.md)
   * [02](macos/02.md)
 * 建站
-  * [blog](建站/blog/)
-    * [01](建站/blog/01.md)
-    * [02](建站/blog/02.md)
   * [01](建站/01.md)
   * [02](建站/02.md)
+  * blog
+    * [01](建站/blog/01.md)
+    * [02](建站/blog/02.md)
 * Linux
   * [01](linux/01.md)
   * [02](linux/02.md)
