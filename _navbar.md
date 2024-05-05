@@ -1,4 +1,4 @@
-- [首页](https://blog.dmxing.top/#/README.md)
+- [首页](https://blog.dmxing.top/)
 - [导航](/README.md)
   - [AI](ai/)
   - [CICD](cicd/)
@@ -11,7 +11,6 @@
   - [Kuberntes](kubernetes/)
   - [技术随笔](jishusuibi/)
   - [个人生活](gerenshenghuo/)
-- [关于本站](about/)
-- [常用工具]
+- 常用工具
   - [JSON在线解析](https://luyx30.github.io/json/)
 - [GitHub](https://github.com/luyx30/blog)
