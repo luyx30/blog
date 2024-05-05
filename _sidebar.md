@@ -1,37 +1,37 @@
 [卢影随行](https://blog.dmxing.top/#/)
-* AI[ai/]
-  * [01](ai/01.md)
-  * [02](ai/01.md)
-* CICD[cicd/]
-  * [01](cicd/01.md)
-  * [02](cicd/02.md)
-* macOS[macos/]
+* [AI](ai/)
+  * [01](/ai/01.md)
+  * [02](/ai/01.md)
+* [CICD](cicd/)
+  * [01](/cicd/01.md)
+  * [02](/cicd/02.md)
+* [macOS](macos/)
   * [01](macos/01.md)
   * [02](macos/02.md)
-* 建站[jianzhan/]
-  * blog
-    * [01](jianzhan/blog/01.md)
-    * [02](jianzhan/blog/02.md)
-  * [01](jianzhan/01.md)
-  * [02](jianzhan/02.md)
-* Linux[linux/]
+* [建站](建站/)
+  * [blog](建站/blog/)
+    * [01](建站/blog/01.md)
+    * [02](建站/blog/02.md)
+  * [01](建站/01.md)
+  * [02](建站/02.md)
+* [Linux](linux/)
   * [01](linux/01.md)
   * [02](linux/02.md)
-* GitOps[gitops/]
+* [GitOps](gitops/)
   * [01](gitops/01.md)
   * [02](gitops/02.md)
-* 监控[jiankong/]
-  * [01](jiankong/01.md)
-  * [02](jiankong/02.md)
-* 日志[rizhi/]
-  * [01](rizhi/01.md)
-  * [02](rizhi/02.md)
-* Kuberntes[kubernetes/]
+* [监控](监控/)
+  * [01](监控/01.md)
+  * [02](监控/02.md)
+* [日志](日志/)
+  * [01](日志/01.md)
+  * [02](日志/02.md)
+* [Kuberntes](kubernetes/)
   * [01](kubernetes/01.md)
   * [02](kubernetes/02.md)
-* 技术随笔[jishusuibi/]
-  * [github.com使用相关问题解决办法参考](jishusuibi/github.com使用相关问题解决办法参考.md)
-  * [02](jishusuibi/02.md)
-* 个人生活[gerenshenghuo/]
-  * [01](gerenshenghuo/01.md)
-  * [02](gerenshenghuo/02.md)
+* [技术随笔](技术随笔/)
+  * [github.com使用相关问题解决办法参考](技术随笔/github.com使用相关问题解决办法参考.md)
+  * [02](技术随笔/02.md)
+* [个人生活](个人生活/)
+  * [01](个人生活/01.md)
+  * [02](个人生活/02.md)

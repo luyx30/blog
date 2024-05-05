@@ -28,7 +28,6 @@
 
 ## 💌 联系
 
-- **Email：** luyx30@126.com
 - **GitHub：** [https://github.com/luyx30](https://github.com/luyx30)
 - **微信公众号：**  XXXX（扫码关注我呀）
 
