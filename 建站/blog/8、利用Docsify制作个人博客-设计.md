@@ -6,7 +6,7 @@
 
 看到docsify后，让自己专注写作就能建站，很适合自己。
 
-居于前面几章的折腾，大概了解了如何使用docsify，并将它发布到互联网上。今天正式开工，该怎么设计个人博客的布局呢？我在犹豫。在`https://github.com/docsifyjs/awesome-docsify?tab=readme-ov-file#showcase`逛了逛，发现[字节飞扬](https://bytesfly.github.io/blog/)，建站的初心，页面布局，需要呈现的内容与我的想法比较一致，决定参考进行页面布局设计，感谢！
+居于前面几章的折腾，大概了解了如何使用docsify，并将它发布到互联网上。今天正式开工，该怎么设计个人博客的布局呢？我在犹豫。在 `https://github.com/docsifyjs/awesome-docsify?tab=readme-ov-file#showcase`逛了逛，发现[字节飞扬](https://bytesfly.github.io/blog/)，建站的初心，页面布局，需要呈现的内容与我的想法比较一致，决定参考进行页面布局设计，感谢！
 
 ## 设计思路
 
@@ -67,7 +67,7 @@ Published with docsify.
 
 * 其他
 
-支持扫描添加微信公众号，使用大模型制作一个自动回复信息的机器人 
+支持扫描添加微信公众号，使用大模型制作一个自动回复信息的机器人
 
 支持搜索
 
@@ -84,7 +84,7 @@ Published with docsify.
 ```markdown
 昵称：luyx30
 头像：用网站icon
-主页：https://www.dmxing.top/
+主页：https://blog.dmxing.top/
 说明：留下一些成长的印记。
 ```
 
