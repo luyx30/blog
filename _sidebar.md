@@ -1,4 +1,3 @@
-[卢影随行](https://blog.dmxing.top/#/)
 * [AI](ai/)
   * [01](/ai/01.md)
   * [02](/ai/01.md)
