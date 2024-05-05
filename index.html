@@ -91,7 +91,7 @@
       //
       // 初始化索引时，我们从侧边栏查找第一个路径
       // 如果它与列表中的前缀匹配，我们将切换到相应的索引
-      pathNamespaces: ['/zh-cn', '/ru-ru', '/ru-ru/v1'],
+      pathNamespaces: ['/'],
 
       // 您可以提供一个正则表达式来匹配前缀。在这种情况下，
       // 匹配到的字符串将被用来识别索引
@@ -102,14 +102,20 @@
   <script src="static/docsify.min.js"></script>
   <script src="static/search.min.js"></script>
 
-<!-- 回到顶部功能 -->
-<script>
-  addBackToTop({
-      diameter: 56,
-      backgroundColor: 'rgb(66, 185, 131)',
-      textColor: '#fff',
-  });
-</script>
+  <!-- 回到顶部功能 -->
+  <script src="static/jquery.js"></script>
+  <script src="static/jquery.goup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $.goup({
+        trigger: 100,
+        bottomOffset: 52,
+        locationOffset: 25,
+        //title: 'TOP',
+        titleAsText: true
+      });
+    });
+  </script>
 
 <!-- 实现离线化 -->
 <script>
