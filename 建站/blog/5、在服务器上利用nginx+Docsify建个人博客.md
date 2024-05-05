@@ -60,7 +60,7 @@ server {
   ......
 
   location / {
-    alias /data/web/docs/;
+    alias /web/;
     index index.html;
   }
 }
@@ -72,7 +72,7 @@ server {
 sudo systemctl reload nginx
 ```
 
-手动新建/data/web/docs/index.html
+手动新建/web/web/docs/index.html
 
 ```HTML
 <!DOCTYPE html>
@@ -92,7 +92,7 @@ sudo systemctl reload nginx
 </html>
 ```
 
-其中js和css用了外部资源，直接手动下载到/data/web/docs目录下，并替换成本地链接如下
+其中js和css用了外部资源，直接手动下载到/web/docs目录下，并替换成本地链接如下
 
 ```HTML
 <!DOCTYPE html>
@@ -322,16 +322,15 @@ brew install nginx
         server_name localhost 127.0.0.1;
 
         root /etc/nginx;
-        ssl_certificate "dmxing_top.pem";
-        ssl_certificate_key "dmxing_top.key";
+        ssl_certificate "xxx.pem";
+        ssl_certificate_key "xxx.key";
         ssl_session_cache shared:SSL:1m;
         ssl_session_timeout  10m;
         ssl_prefer_server_ciphers on;
         ssl_protocols TLSv1.1 TLSv1.2 TLSv1.3;
         add_header Strict-Transport-Security "max-age=31536000";
         #禁止已经不安全的加密算法
-        #ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
-        ssl_ciphers 'ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:!ECDHE-RSA-DES-CBC3-SHA:!EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:!DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!CAMELLIA:!DES:!MD5:!PSK:!RC4:!3DES';
+        ssl_ciphers EECDH+CHACHA20:EECDH+AES128:RSA+AES128:EECDH+AES256:RSA+AES256:EECDH+3DES:RSA+3DES:!MD5;
 
         error_page 404 /404.html;
             location = /40x.html {

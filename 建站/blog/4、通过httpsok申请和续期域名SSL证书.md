@@ -29,14 +29,14 @@
 
 ![image-20240430221201406](assets/image-20240430221201406.png)
 
-- 域名：选通配符证书*.dmxing.top
+- 域名：选通配符证书
 - 证书厂商：ZeroSSL
 - 加密算法：ECC
 
 按提示，登录域名解析后台，添加域名解析记录，等待一段时间，验证通过后状态会变成通过即可
 
 ```Plain
-_acme-challenge CNAME 3d9fc1b0e698003b.httpsok.com
+_acme-challenge CNAME xxxxxxxxx.httpsok.com
 ```
 
 申请通过后，在证书管理界面可以下载证书，上传到服务器并替换成对应的名称

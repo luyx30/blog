@@ -2,10 +2,6 @@
 
 网站：https://aws.amazon.com/cn/
 
-账号：luyx30@163.com
-
-IP：52.15.206.23
-
 操作系统：ubuntu22.04
 
 登录方式：密钥对aws
