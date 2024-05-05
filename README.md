@@ -2,10 +2,6 @@
 
 本站源码以及全部内容： [https://github.com/luyx30/blog](https://github.com/luyx30/blog)
 
-<img src="https://img.shields.io/github/stars/luyx30/blog" data-origin="https://img.shields.io/github/stars/luyx30/blog" alt=""> 
-<img src="https://img.shields.io/github/forks/luyx30/blog" data-origin="https://img.shields.io/github/forks/luyx30/blog" alt="">
-<img src="https://img.shields.io/github/license/luyx30/blog" data-origin="https://img.shields.io/github/license/luyx30/blog" alt="">
-
 > `docsify`可以快速帮你生成文档网站。不同于 GitBook、Hexo 的地方是它不会生成静态的 .html 文件，所有转换工作都是在运行时。如果你想要开始使用它，只需要创建一个 index.html 就可以开始编写文档并直接部署在 `GitHub Pages`。
 
 部署可参考： [https://docsify.js.org/#/zh-cn/deploy](https://docsify.js.org/#/zh-cn/deploy)

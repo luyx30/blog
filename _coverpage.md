@@ -8,5 +8,8 @@
 - 个人生活
 - 技术随笔
 
+<img src="https://img.shields.io/github/stars/luyx30/blog" data-origin="https://img.shields.io/github/stars/luyx30/blog" alt=""> 
+<img src="https://img.shields.io/github/forks/luyx30/blog" data-origin="https://img.shields.io/github/forks/luyx30/blog" alt="">
+
 [GitHub](https://github.com/luyx30/blog)
 [开始阅读](/README.md)
