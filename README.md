@@ -19,7 +19,6 @@
 - [X] CICD
 - [X] DevOps
 - [X] Linux
-- [X] 国产化
 - [X] ......
 
 ## 💌 联系
@@ -27,7 +26,7 @@
 - **GitHub：** [https://github.com/luyx30](https://github.com/luyx30)
 - **微信公众号：**  卢影随行（扫码关注我呀）
 
- <div ><img src="static/erweima.jpg" width="200" height="200" /></div> 
+ <div ><img src="_media/erweima.jpg" width="200" height="200" /></div> 
 
 内容仅是个人的笔记与总结，有错误之处还请多多指正，欢迎来讨论！
 
