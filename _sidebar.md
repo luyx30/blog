@@ -33,7 +33,7 @@
 * Kuberntes
   * [01](kubernetes/01.md)
   * [02](kubernetes/02.md)
-* 技术随笔
+* [技术随笔](技术随笔/)
   * [github.com使用相关问题解决办法参考](技术随笔/github.com使用相关问题解决办法参考.md)
 * 个人生活
   * [01](个人生活/01.md)
