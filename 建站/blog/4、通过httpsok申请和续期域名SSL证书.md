@@ -27,7 +27,6 @@
 
 登录后台 `https://httpsok.com/console/cert`，访问证书管理页面，选择申请免费证书
 
-![image-20240430221201406](assets/image-20240430221201406.png)
 
 - 域名：选通配符证书
 - 证书厂商：ZeroSSL
