@@ -1,6 +1,7 @@
 * AI
-  * [01](AI/01.md)
-  * [02](AI/01.md)
+  * 扣子coze.cn
+      * [扣子-创建自定义插件](AI/扣子coze.cn/扣子-创建自定义插件.md)
+  * [数字人](AI/数字人/)
 * CICD
   * DroneCI
     * [01](CICD/DroneCI/01.md)
