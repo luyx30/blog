@@ -12,4 +12,5 @@
   - [个人生活](个人生活/)
 - 常用工具
   - [JSON在线解析](https://luyx30.github.io/json/)
+  - [PDF开源工具箱](https://github.com/Stirling-Tools/Stirling-PDF)
 - [GitHub](https://github.com/luyx30/blog)
