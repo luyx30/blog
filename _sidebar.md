@@ -2,7 +2,7 @@
   * 扣子coze.cn
       * [扣子-创建自定义插件](AI/扣子coze.cn/扣子-创建自定义插件.md)
   * AI代码编辑器Cursor
-      * [AI辅助编程工具：Cursor与deepseek-coder结合](AI辅助编程工具：Cursor与deepseek-coder结合.md)
+      * [AI辅助编程工具：Cursor与deepseek-coder结合](AI/AI代码编辑器Cursor/AI辅助编程工具：Cursor与deepseek-coder结合.md)
   
   * [数字人](AI/数字人/)
   
