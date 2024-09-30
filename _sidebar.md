@@ -35,7 +35,7 @@
   * [01](日志/01.md)
   * [02](日志/02.md)
 * Kuberntes
-  * [专属镜像源：利用Cloudflare部署属于自己的docker镜像源](Kubernetes/专属镜像源：利用Cloudflare部署属于自己的docker镜像源.md)
+  * [专属镜像源：利用Cloudflare打造专属docker和k8s镜像源](Kubernetes/专属镜像源：利用Cloudflare打造专属docker和k8s镜像源.md)
 * [技术随笔](技术随笔/)
   * [github.com使用相关问题解决办法参考](技术随笔/github.com使用相关问题解决办法参考.md)
 * 个人生活
