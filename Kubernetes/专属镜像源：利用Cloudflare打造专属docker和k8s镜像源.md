@@ -1,8 +1,8 @@
-# 专属镜像源：利用Cloudflare部署属于自己的docker镜像源
+# 专属镜像源：利用Cloudflare打造专属docker和k8s镜像源
 
 ## 引言
 
-由于网络限制，国内用户无法直接从Docker官方仓库正常获取Docker镜像，同时也无法访问Docker官网。近期，受监管政策影响，众多高校及容器技术社区不得不关闭了多个镜像加速服务站点。此外，即使在网络条件允许的情况下，Mac用户需登录Docker Desktop后才能顺利拉取镜像。
+由于网络限制，国内用户无法直接从Docker官方仓库正常获取Docker镜像，同时也无法访问Docker官网。近期，受监管政策影响，众多高校及容器技术社区不得不关闭了多个镜像加速服务站点，导致获取docker 镜像和k8s镜像非常不便。
 
 据网络社区讨论，有用户通过利用Cloudflare的Workers和Pages服务成功实现了Docker镜像的拉取，决定动手尝试一下。
 
@@ -19,13 +19,26 @@ Cloudflare公司
 * 有cloudflare账号，且能正常访问，国内有时候访问比较慢
 * 有自己的域名，用于访问docker镜像的地址，且该域名需要托管在cloudflare上（使用其DNS解析服务器）
 
+## 原理
+
+Cloudflare Workers 实现 Docker 镜像代理的原理主要基于其无服务器计算平台的特性。具体来说，Cloudflare Workers 允许用户在 Cloudflare 的全球分布式网络上运行自定义的代码，这些代码可以作为代理服务器来处理对 Docker 镜像仓库的请求。以下是详细的实现原理：
+
+1. **无服务器计算平台**：Cloudflare Workers 是一个无服务器计算平台，它允许用户在 Cloudflare 的全球网络上运行自定义的 JavaScript 代码。这意味着用户不需要管理服务器，只需编写代码并部署到 Cloudflare Workers 上。
+2. **代理逻辑**：用户可以通过编写 Worker 脚本来实现对 Docker 镜像仓库的代理逻辑。例如，可以使用现有的开源项目如 `cloudflare-docker-proxy`，或者自己编写代理逻辑。这些脚本会拦截对 Docker 镜像仓库的请求，并将其转发到实际的镜像仓库服务器。
+3. **加速访问**：通过 Cloudflare Workers 代理 Docker 镜像仓库的请求，可以有效解决访问限制和加速访问的问题。Cloudflare 的全球 CDN 节点可以加速镜像的下载速度，提高访问的稳定性。
+4. **自定义域名**：用户可以为代理服务绑定自定义域名，并配置 TLS 证书以确保安全访问。这样，用户可以通过自定义域名来访问代理服务，而不需要直接访问 Docker 镜像仓库的原始地址。
+5. **部署与配置**：部署过程通常包括修改代理 Docker 镜像仓库的域名、使用 `npm run deploy` 命令将代码部署到 Cloudflare Workers，并绑定自定义域名等待 TLS 证书生效。
+6. **限制与注意事项**：需要注意的是，Cloudflare Workers 每个免费账号每天有次数限制（10万次）和每分钟限制（1000次），因此在使用时需要合理规划请求频率。
+
+通过上述步骤，用户可以利用 Cloudflare Workers 实现 Docker 镜像的代理服务，从而绕开访问限制，加速镜像的下载和上传，确保顺畅获取所需的 Docker 镜像。
+
 ## 配置说明
 
 ### github配置
 
-首先 fork [https://github.com/ciiiii/cloudflare-docker-proxy](https://link.segmentfault.com/?enc=rWI4UnDPimGRUO%2FHlwH8tQ%3D%3D.Qkes8%2BKVQcLcu4ycCRaWUPSoFMZpPVtxEj9r%2FfmtJEdFHlSRaaCBlm2emOiPELzxN%2F4BNRUQkpaaXavNGwu9yw%3D%3D) 仓库到自己账号下：`https://github.com/luyx30/cloudflare-docker-proxy`。
+首先 fork [https://github.com/ciiiii/cloudflare-docker-proxy](https://link.segmentfault.com/?enc=rWI4UnDPimGRUO%2FHlwH8tQ%3D%3D.Qkes8%2BKVQcLcu4ycCRaWUPSoFMZpPVtxEj9r%2FfmtJEdFHlSRaaCBlm2emOiPELzxN%2F4BNRUQkpaaXavNGwu9yw%3D%3D) 仓库到自己账号下。
 
-然后修改 `src/index.js`，修改内容按自己的域名如下，其中 mydomain.com 就是你的域名
+然后修改 `src/index.js`，修改内容为自己的域名如下，其中 mydomain.com 就是你的域名
 
 ```js
 const routes = {
@@ -244,13 +257,13 @@ if (url.pathname === "/") {
 
 #### 域名托管在Cloudflare
 
-添加域，选择Free计划
+选择网站，添加域，选择Free计划
 
 ![image-20240928220405880](assets/image-20240928220405880.png)
 
 在 Cloudflare上激活，需要修改 DNS服务器
 
-![image-20240928220058178](assets/image-20240928220058178.png)
+![image-20240930074948401](assets/image-20240930074948401.png)
 
 配置完成之后，等待一定时间让其生效，出现这个提示就表示配置成功了。 
 
